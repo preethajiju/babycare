@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>babyapp</title>
 </head>
-<body class="bgimage" >
-    <link rel="stylesheet" href="css3/style.css">
+<body class="bgcolor">
+   <link rel="stylesheet" href="css2/style.css">
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="main.html">Our Products</a>
+            <a class="nav-link" href="main.php">Our Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="order.html">Order</a>
+            <a class="nav-link" href="order.php">Order</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link" href="contact.php">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -29,28 +29,28 @@
           <div class="row">
               <div class="col col-12 col-sm-2 col-md-2"></div>
               <div class="col col-12 col-sm-8 col-md-8">
-                  <table class="table-borderless">
-                      <tr>
-                          <td>For queries...</td>
-                      </tr>
-                      <tr>
-                          <td>Name</td>
-                          <td><input type="text" class="formcontrol"></td>
-                      </tr>
-                      <tr>
-                          <td>E-mail</td>
-                          <td><input type="text" class="formcontrol"></td>
-                      </tr>
-                      <tr>
-                          <td>Message</td>
-                          <td><input type="text" class="formcontrol"></td>
-                      </tr>
-                      <tr>
-                          <td></td>
-                          <td><button class="btn btn-success">Send</button></td>
-                      </tr>
-                  </table>
-                
+                <table class="table-borderless">
+                    <tr>
+                        <td>Product Name</td>
+                        <td><input type="text" class="formnumber" ></td>
+                    </tr>
+                    <tr>
+                        <td>Code</td>
+                        <td><input type="text" class="formcontrol"></td>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td><button onclick="buttonclick()" class="btn btn-primary">Order</button></td>
+                        
+                        <td><button onclick="buttonclick()" class="btn btn-primary">Add to Cart</button></td>
+                        
+                        <td><button onclick="buttonclick()" class="btn btn-primary">Cancel</button></td>
+                    </tr>
+                </table>
+            
+
               </div>
               <div class="col col-12 col-sm-2 col-md-2">
 
